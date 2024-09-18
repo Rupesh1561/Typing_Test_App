@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    height:730px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25,28,36);
+  }
+
+  #main{
+    width:50%;
+    min-width:520px;
+    height: 600px;
+    background-color: rgb(25,28,36);
+  }
+
+  #top{
+    width:100%;
+    height:25%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #middle{
+    width:100%;
+    height:fit-content;
+    background-color:rgb(35,38,51);
+    margin:10px 0px;
+    border:solid 1px rgb(252,173,3);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    padding:10px;
+    font-family:comic sans ms;
+  }
+
+  .normal{
+    display: inline-block;
+    color:rgb(157, 151, 151);
+    margin-right: 7px;
+  }
+  .wrong{
+    color:rgb(240, 6, 6);
+  }
+  .correct{
+    color:rgb(59, 252, 5);
+  }
+  .mark{
+    background-color: rgb(7, 93, 254);
+    padding-right:-2px;
+  }
+
+  #bottom{
+    width:100%;
+    height:25%;
+    background-color:rgb(25,28,36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+ #top >div{
+    width:110px;
+    height:110px;
+    background-color:rgb(35,38,51);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#top> div.timer{
+    border-radius:150px;
+}
+
+#top p{
+    color:rgb(252,173,3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 900;
+}
+
+#input{
+    height:50px;
+    width:200px;
+    border:solid 3px rgb(252,173,3);
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+#restart{
+  padding:3px;
+  font-weight:600;
+}
